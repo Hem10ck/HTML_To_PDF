@@ -15,6 +15,7 @@ When the "Convert" button is clicked, the convert_html_to_pdf function is called
 
 # Installation
 - git clone https://github.com/Hem10ck/HTML_To_PDF.git
+- cd HTML_To_PDF
 - pip install -r requirements.txt
 
 # Run
