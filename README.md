@@ -19,7 +19,20 @@ When the "Convert" button is clicked, the convert_html_to_pdf function is called
 - pip install -r requirements.txt
 
 # Run
-- 
+- For Linux users, you can change the chromedriver path to the location where you have installed the ChromeDriver. You can replace ./chromedriver with the absolute path to the ChromeDriver executable on your system.
+
+For example, if you have installed the ChromeDriver in the /usr/local/bin directory, you can change the line:
+
+chromedriver='./chromedriver'
+
+to:
+
+chromedriver='/usr/local/bin/chromedriver'
+
+Make sure to use the correct path to your installed ChromeDriver.
+
+
+then run it using:
 pyhton HTML_To_PDF/Html2PDF.py
 
 ![image](https://user-images.githubusercontent.com/125226131/236208515-7b0b5b4f-f673-4dfb-bb7d-7288f13a9fc1.png)
