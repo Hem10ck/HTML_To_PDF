@@ -14,12 +14,12 @@ ttk.Button: a button widget to trigger the conversion process
 When the "Convert" button is clicked, the convert_html_to_pdf function is called, which retrieves the URL from the input field, converts the HTML to a PDF using the get_pdf_from_html function, and saves the PDF to a file using the filedialog.asksaveasfilename method. If the conversion process fails, an error message is displayed using the messagebox.showerror method, and if successful, a success message is displayed using the messagebox.showinfo method.
 
 # Installation
--
+- git clone https://github.com/Hem10ck/HTML_To_PDF.git
 - pip install -r requirements.txt
 
 # Run
-
-pyhton 
+- 
+pyhton HTML_To_PDF/Html2PDF.py
 
 ![image](https://user-images.githubusercontent.com/125226131/236208515-7b0b5b4f-f673-4dfb-bb7d-7288f13a9fc1.png)
 
