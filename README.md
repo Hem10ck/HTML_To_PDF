@@ -13,6 +13,14 @@ ttk.Entry: an entry widget to allow the user to input the URL to convert
 ttk.Button: a button widget to trigger the conversion process
 When the "Convert" button is clicked, the convert_html_to_pdf function is called, which retrieves the URL from the input field, converts the HTML to a PDF using the get_pdf_from_html function, and saves the PDF to a file using the filedialog.asksaveasfilename method. If the conversion process fails, an error message is displayed using the messagebox.showerror method, and if successful, a success message is displayed using the messagebox.showinfo method.
 
+# Installation
+-
+- pip install -r requirements.txt
+
+# Run
+
+pyhton 
+
 ![image](https://user-images.githubusercontent.com/125226131/236208515-7b0b5b4f-f673-4dfb-bb7d-7288f13a9fc1.png)
 
 ![image](https://user-images.githubusercontent.com/125226131/236208839-cef2829d-327a-4c21-b3eb-059ba82d1f0f.png)
